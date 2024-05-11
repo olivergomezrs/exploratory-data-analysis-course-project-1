@@ -13,5 +13,6 @@ subpower[1441:2880, "Time"] <- format(subpower[1441:2880,"Time"], "2007-02-02 %H
 # Grafica
 plot(subpower$Time, as.numeric(as.character(subpower$Global_active_power)), type="l", xlab="", ylab="Global Active Power (kilowatts)") 
 
+
 # Titulo
 title(main="Global Active Power Vs Time")
