@@ -13,6 +13,7 @@ subpower[1441:2880, "Time"] <- format(subpower[1441:2880, "Time"], "2007-02-02 %
 # Frames
 par(mfrow=c(2,2))
 
+
 # Grafica
 with(subpower,{
   plot(subpower$Time, as.numeric(as.character(subpower$Global_active_power)), type="l",  xlab="", ylab="Global Active Power")  
